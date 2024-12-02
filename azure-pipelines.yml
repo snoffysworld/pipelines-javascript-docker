@@ -6,10 +6,12 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'ubuntu-latest'
+
+pool: eShopOnWebSelfPool
+  
 
 variables:
+  vmImage: 'ubuntu-latest'
   imageName: 'pipelines-javascript-docker1'
   
 steps:
